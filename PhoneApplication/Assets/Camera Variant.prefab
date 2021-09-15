@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6130137257948649462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588113923596260678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3759f6593e7e37b42ac78bf8582b86ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPrefab: {fileID: 0}
+  treePrefab: {fileID: 0}
+  axePrefab: {fileID: 0}
+  fireCampPrefab: {fileID: 0}
+  fishingSpearPrefab: {fileID: 0}
+  poolPrefab: {fileID: 0}
+  rocksPrefab: {fileID: 0}
+  sardinePrefab: {fileID: 0}
+  woodPrefab: {fileID: 0}
+  bucketPrefab: {fileID: 0}
+  movingObjectPrefab: {fileID: 0}
+--- !u!114 &6159984967694410931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588113923596260678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcfd3f2a10fd954cac67d0048bc3922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialMenu: {fileID: 0}
+  configureMenu: {fileID: 0}
+  playThesisMenu: {fileID: 0}
+  experienceMenu: {fileID: 0}
+  confMenuScript: {fileID: 0}
+  playMenuThesisScript: {fileID: 0}
+  prefabs: {fileID: 0}
+  anchoredPrefab: {fileID: 0}
+  resolvedPrefab: {fileID: 0}
+  movingObjectPrefab: {fileID: 0}
+--- !u!1001 &7646185816863196198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5329560027410747744, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_Name
+      value: Camera Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329560027410747752, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8237737571753342140, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b, type: 3}
+--- !u!1 &2588113923596260678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5329560027410747744, guid: 5c69dce5f7f7f2b4d9dacef8046fce4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7646185816863196198}
+  m_PrefabAsset: {fileID: 0}

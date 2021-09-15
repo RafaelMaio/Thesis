@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3608080184327494875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3608080184327461501, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_Name
+      value: Fireworks - Rocket - Simple 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184327095901, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184308744989, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].emitter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184308744989, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184308744989, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608080184308744989, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[1].emitter
+      value: 
+      objectReference: {fileID: 19800004}
+    - target: {fileID: 3608080184308744989, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[2].emitter
+      value: 
+      objectReference: {fileID: 19800002}
+    - target: {fileID: 3608080184308744991, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+        type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].emitter
+      value: 
+      objectReference: {fileID: 19800000}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbdd4b3e46f4b0e47a10f71e63354fa2, type: 3}
+--- !u!198 &19800004 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3608080184308744991, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3608080184327494875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &19800002 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3608080184308744985, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3608080184327494875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &19800000 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3608080184308744987, guid: bbdd4b3e46f4b0e47a10f71e63354fa2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3608080184327494875}
+  m_PrefabAsset: {fileID: 0}
