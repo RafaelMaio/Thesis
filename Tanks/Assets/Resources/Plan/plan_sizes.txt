@@ -1,0 +1,2 @@
+planta_casa: x=53.757,y=20.086
+planta_iris: x=48.442,y=34.030
