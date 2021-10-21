@@ -97,15 +97,20 @@ Roll-a-ball game in augmented reality.
 
 ## ServerApplication:
 
-...
+Code for the server application. Waits for the smartphone game application connection. Saves the user game performance.
+Code for performance visualization using matplotlib -> deprecated.
+Code for the usability tests analysis.
 
 ### Requirements:
 
-...
+* Python 3.0
 
-### Usage:
+### Usage (server):
 
-...
+1. Change the server IP address and Port.
+2. python server.py
+3. Insert the server IP address and port in the game application.
+4. Transfer the file to the desktop application to watch the user game performance.
 
 ## Tanks:
 
@@ -124,15 +129,23 @@ Tanks game in augmented reality.
 
 ## gameLibraryPackage:
 
-...
+Library package to transform any Unity game in an augmented reality game.
 
 ### Requirements:
 
-...
+* Unity 2018.3.2f1 or other compatible version.
+* Android 7.0 version or higher
 
 ### Usage:
 
-...
+1. Import the package “gameLibraryPackage.unitypackage”. Assets -> Import Package -> Custom Package... and select the corresponding package.
+2. Tag the intended GameObject player with the tag “Player”, if any (it is possible to be just spectator).
+3. Transfer the game to Android platform and associate the player to ARCore and to the phone camera. For this, just use the menu: ARCore game library -> Create game for ARCore.
+4. Open the scaling window, if any adjustment to the scene scale must be made to fit in the real world.
+5. Choose the scale comparison image, if any and set its width and height.
+6. Increase or decrease the scene scale.
+7. Change the “arcoreHandler” GameObject position and rotation to the intended starting pose on the real world, relatively to the game scene.
+8. Build and Run to the smartphone and enjoy the game in the AR environment.
 
 ## Contact
 
