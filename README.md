@@ -14,7 +14,7 @@ Application code for the configuration using the desktop PC and for the performa
 
 ### Usage:
 
-#### Configuration using ARCore cloud anchors
+#### Configuration of the AR scenario using ARCore cloud anchors
 
 1. Open the project in Unity.
 2. Import the file with the anchors information to the application folder "*AnchorFiles*".
@@ -57,12 +57,78 @@ Draws the path traveled by the smartphone. Evaluation of ARCore motion tracking 
 
 ## PhoneApplication:
 
-...
+Application code for configuration of the AR scenario using the smartphone and for augmented reality serious game.
 
 ### Requirements:
 
 * Unity 2018.3.2f1 or other compatible version.
 * Android 7.0 version or higher
+
+### Usage:
+
+#### Configuration of the AR scenario
+
+1. Open the project in Unity.
+2. Build and Run the application to the smartphone.
+3. Create a new scenario.
+4. Place the anchor(s) (if using ARCore cloud anchors technology) and the virtual object(s) around the environment.
+
+#### Configuration of the AR scenario
+
+1. Open the project in Unity.
+2. Build and Run the application to the smartphone.
+3. Select the configured AR scenario.
+4. Play the game with static virtual objects or with the moving object.
+
+## Roll-a-ball:
+
+Roll-a-ball game in augmented reality.
+
+### Requirements:
+
+* Unity 2018.3.2f1 or other compatible version.
+* Android 7.0 version or higher
+
+### Usage:
+
+1. Open the project in Unity.
+2. Build and Run the application to the smartphone.
+3. Play the Roll-a-ball game in an immersive augmented reality environment.
+
+## ServerApplication:
+
+...
+
+### Requirements:
+
+...
+
+### Usage:
+
+...
+
+## Tanks:
+
+Tanks game in augmented reality.
+
+### Requirements:
+
+* Unity 2018.3.2f1 or other compatible version.
+* Android 7.0 version or higher
+
+### Usage:
+
+1. Open the project in Unity.
+2. Build and Run the application to the smartphone.
+3. Observe the tanks game in an immersive augmented reality environment.
+
+## gameLibraryPackage:
+
+...
+
+### Requirements:
+
+...
 
 ### Usage:
 
