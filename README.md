@@ -10,7 +10,7 @@ Application code for the configuration using the desktop PC and for the performa
 
 ### Requirements:
 
-* Unity 2018.3.2f1
+* Unity 2018.3.2f1 or other compatible version.
 
 ### Usage:
 
@@ -61,7 +61,7 @@ Draws the path traveled by the smartphone. Evaluation of ARCore motion tracking 
 
 ### Requirements:
 
-* Unity 2018.3.2f1
+* Unity 2018.3.2f1 or other compatible version.
 * Android 7.0 version or higher
 
 ### Usage:
